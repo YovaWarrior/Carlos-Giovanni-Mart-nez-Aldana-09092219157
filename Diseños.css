@@ -1,0 +1,88 @@
+.titulo-h1 {
+    color: rgb(255, 77, 0); /*color de la letra */
+    font-size: 5em; /* tamaño de letra*/
+    background-color: blue; /* color de resaltado de letra*/
+    width: 50%; /* Ocupacion de la pantalla horizaontal*/
+    font-family:"Lora"; /* Tipo de letra*/
+    line-height: 1; /*Espacio entre lineas y parrafos */
+    font-weight: 550;/* Grozor de la letra (entre mas se pone en negrita fuerte)*/
+    padding: 1cm;
+    
+
+}
+
+ #car {
+    color: aqua;
+ }
+
+ [racata="cr7"] {
+    color: blueviolet;
+ }
+
+ h2 p {
+    color: aquamarine;
+ }
+
+ b:hover {
+    color: brown;
+ }
+
+.form__input--active {
+    color: blue;
+} 
+
+.form__input--rate {
+    color: rgb(0, 174, 255);
+    font-size: 3em;
+} 
+
+h2 {
+   display: inline-block;/* no se le puede dar height porque es un elemnto en linea*/
+}
+
+h1 {
+   background-color: red;
+   display: inline-block;
+   padding-bottom: 20px;
+   padding-top: 20px;
+   padding-left: 30px;
+   padding-right: 30px;
+   box-sizing: border-box;
+   text-align: center;/* centra el contenido de la caja*/
+   margin: 10px; /* espacio que hay entre las cajas*/
+   border-radius: 10px;/* Es el radio de los bordes de las cajas*/
+   border: 3px outset skyblue;
+   box-shadow: 2px 4px 15px 0px black;/* sombreado*/
+   text-shadow: 3px 2px 7px black;
+   transform: rotate(5);/* rotacion y los grados que roptara*/
+
+}
+
+.caja1{
+   width: 200px;
+   height: 200px;
+   background: red;
+   margin: auto;
+   border: 10px solid blue;
+   box-sizing: border-box;
+}
+
+.caja2{
+   width: 200px;
+   height: 200px;
+   background-color: crimson;
+   margin: auto;
+}
+
+.Pant {
+   background-image: url(https://p4.wallpaperbetter.com/wallpaper/880/487/768/cash-coins-currency-finance-wallpaper-preview.jpg);
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed; }
+
+.cajinput1{
+      font-family:Lucida Sans;
+      text-align: center;
+      margin: 40px;
+      padding: 5px;
+   }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Diseños.css">
+    <title>Cuenta de Ahorro parte 2</title>
+</head>
+<h1> Felicidades acabas de abrir tu primera cuenta de ahorro</h1>
+<body class="Pant">
+    <label for="" class="text1">Cantidad Disponible en cuenta de ahorro</label>
+    <input type="number" name="Cantidad1" id="A1" value="0" class="cajinput">
+    <h2 class="h2"> Cantidad de dinero que desea agregar este mes</h2>
+        <input type="number" name="" id="Can" placeholder="Cantidad" class="cajinput2">
+        <hr>
+
+        <input type="button" value="Depositar Dinero" id="bt4" class="btn" onclick="formula3()">
+
+     <script>
+         
+         function formula3() {
+            var CantidadT=parseInt(document.getElementById("Can").value);
+            var Cantidad1=parseInt(document.getElementById("A1").value);
+            document.getElementById("A1").value=(Cantidad1+CantidadT);
+            alert("La cantidad de dinero ahorrado este mes fue de ");
+            alert(CantidadT);
+         }
+
+         
+        
+
+     </script>   
+
+
+    
+</body>
+</html>
